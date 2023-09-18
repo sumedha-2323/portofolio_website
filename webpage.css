@@ -1,0 +1,128 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+div{
+    height: 500px;
+    list-style: none;
+}
+
+.coverpage{
+    background-image: url("./coverpage (1).jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    opacity: 20px;
+}
+ul{
+    float:right;
+    margin-right: 30px;
+    list-style: none;
+}
+ul li{
+    display:inline-block;
+    line-height: 60px;
+    margin:0px 35px;
+    
+}
+ul li a{
+    color:black;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding: 3px 6px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.active:hover{
+    background: whitesmoke;
+    transition: .5s; 
+
+}  
+h1{
+    color: #000000;
+    padding-top: 170px;
+    padding-left: 180px;
+    font-size: 70px;
+}
+.aboutme{
+    height: 500px;
+    color: white;
+    padding-top: 150px;
+}
+.image{
+    border:2px solid white;
+    margin: 100px;
+    margin-left: 200px;
+    border-radius: 20px;
+}
+.about{
+    color: white;
+    font-size: 50px;
+}
+.aboutme{
+    line-height: 30px;
+    font-size: 20px;
+}
+.skills{
+    color: white;
+    padding-top: 0px;
+    text-align: center;
+    padding-right: 180px;
+    font-size: 60px;
+}
+.card-title{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.card-text{
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    font-size: medium;
+    line-height: 20px;
+}
+.skill-grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-column-gap: 20px;
+    padding-left: 130px;
+}
+.card{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    height: 400px;
+}
+.card-img-top{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact-head{
+    color: white;
+    text-align: center;
+    padding-right: 180px;
+    padding-top: 50px;
+    font-size: 50px;
+}
+.linkedin{
+    padding-top: 50px;
+    padding-left: 600px;
+    padding-bottom: 30px;
+}
+.insta{
+    padding-left:80px ;
+}
+.git{
+    padding-left: 80px;
+}
